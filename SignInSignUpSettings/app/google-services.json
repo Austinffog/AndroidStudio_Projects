@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "944805847149",
+    "project_id": "signinsingupsettings",
+    "storage_bucket": "signinsingupsettings.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944805847149:android:1885b3d99e0f4b7284df64",
+        "android_client_info": {
+          "package_name": "com.example.signinsingupsettings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944805847149-8eu2gclm3js5imsscgqfq6638t05ohhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASZU3ku8_gzkyCn6WOnML6EWieoKv-aIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944805847149-8eu2gclm3js5imsscgqfq6638t05ohhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
