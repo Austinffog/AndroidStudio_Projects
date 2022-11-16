@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_FavPlaces"
+            android:padding="1dp"
+            android:layout_above="@+id/title"
+            android:layout_margin="25dp"
+            android:text="Favourite Places Map"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="25dp"
+            android:background="@color/black"
+            android:text="List of favourite places"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/bt_Save"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/title"
+            android:layout_alignParentStart="true"
+            android:layout_margin="25dp"
+            android:layout_marginStart="0dp"
+            android:text="Save" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_StreetAddress"
+            android:hint="Street Address"
+            android:padding="16dp"
+            android:background="@android:drawable/editbox_background"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_City"
+            android:hint="City"
+            android:padding="16dp"
+            android:background="@android:drawable/editbox_background"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Country"
+            android:hint="Country"
+            android:padding="16dp"
+            android:background="@android:drawable/editbox_background"/>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_view"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!--Reference
+ How to Implement Firebase Realtime Database in Android Studio | RealtimeDatabase | Android Coding.
+ 2021. YouTube Video, added by Android Coding.
+ [Online]. Available at: https://www.youtube.com/watch?v=u4z8Job_sjk [Accessed 7 June 2021].-->
